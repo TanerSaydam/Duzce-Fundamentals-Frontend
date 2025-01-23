@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <table>
+        <thead>
+            <tr>
+                <th>Başlık 1</th>
+                <th>Başlık 2</th>
+                <th>Başlık 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.Kolon
+                    <table>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                        </tr>
+                    </table>
+                </td>
+                <td>2.Kolon</td>
+                <td>3.Kolon</td>
+            </tr>
+            <tr>
+                <td>1.Kolon</td>
+                <td colspan="2">2.Kolon</td>            
+            </tr>
+            <tr>
+                <td>1.Kolon</td>
+                <td>2.Kolon</td>
+                <td>3.Kolon
+                    <table>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table> -->
+
+
+    <!-- <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ul>
+
+    <ol>
+        <li>List item 1
+            <ul>
+                <li>Sub list item 1
+                    <ol>
+                        <li>sub sub item 1</li>
+                    </ol>
+                </li>
+                <li>Sub list item 2</li>
+            </ul>
+        </li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ol> -->
+
+    <!-- <ul style="list-style: lower-roman;">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ul> -->
+
+    <!-- <input type="text" placeholder="Buraya bir şey yaz..."/>
+    <input type="number"/>
+    <input type="date"/>
+    <input type="datetime-local"/>
+    <input type="month"/>
+    <input type="week"/>
+    <input type="time"/>
+    <input type="file"/>
+    <input type="search"/>
+    <input type="color"/>
+    <input type="checkbox"/>
+    <input type="radio"/> -->
+
+
+
+
+
+
+    <form autocomplete="off">
+        <div>
+            <label>Firstname</label>
+            <input name="firstName" required/>
+        </div>
+        <div>
+            <label>LastName</label>
+            <input name="lastName"/>
+        </div>
+
+        <div>
+            <label>Age</label>
+            <input type="number" name="Age" required min="100"/>
+        </div>
+        <div>
+            <label>Description</label>
+            <textarea name="description" rows="5"></textarea>
+        </div>
+        <div>
+            <label>Select</label>
+            <select name="select" required>
+                <option>Seçim yapınız...</option>
+                <option value="deneme1">Test 1</option>
+                <option>Test 2</option>
+                <option>Test 3</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit Kaydet</button>
+            <button type="button">Btn Kaydet</button>
+        </div>
+    </form>
+</body>
+
+</html>

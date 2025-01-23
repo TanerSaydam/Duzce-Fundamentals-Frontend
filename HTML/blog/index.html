@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Home Page</title>
+    <style>
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .nav{
+            background-color: #ccc;            
+            border-radius: 7px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+        a:hover{
+            background-color: red;  
+            background-color: #e1dede;
+
+        }
+
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        img{
+            border-radius: 100px;
+        }
+
+        .about{
+            text-align: center;
+        }
+
+        .loader {
+            height: 20px;
+            width: 20px;
+            border: 4px solid red;
+            border-top: 4px solid white; 
+            border-radius: 50%; 
+            animation: spin 1s infinite linear;
+        }
+
+        @keyframes spin{
+            0% {transform: rotate(0deg);}
+            100% {transform: rotate(360deg);}
+        }
+
+        .title-spin{
+            top: 20px;
+            position: absolute;
+            width: 160px;
+            height: 20px;
+            background-color: white;
+            animation: title-spin 2s infinite linear;
+        }
+
+        @keyframes title-spin{
+            0% {width: 0px;}            
+        }
+
+        .title{
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="./index.html">Home Page</a>
+            </li>
+            <li>
+                <a href="./about.html">About Page</a>            
+            </li>
+            <li>
+                <a href="./contact.html">Contact Page</a>            
+            </li>
+        </ul>
+    </div>
+    <section class="main">
+        <div>
+            <h1>Home Page</h1>
+        </div>
+        <div>
+            <img src="https://tanersaydam.net/assets/profile-favicon.jpg" alt="" width="200">
+        </div>
+        <div class="title">
+            <h5>Senior Software Developer</h5>
+            <div class="title-spin"></div>
+        </div>
+
+        <!-- <div class="loader">
+
+        </div> -->
+    </section>
+
+    <section class="about">
+        <h4>About Me</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquam. Autem labore voluptatem, a molestiae natus maxime sunt nisi debitis porro magnam id velit enim quia libero inventore expedita laudantium...</p>
+    </section>
+    
+</body>
+</html>
