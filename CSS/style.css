@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Icons';
+    font-size: 20px !important;
+    color: black;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.nav-link-text{
+    font-size: 12px;
+}
+
+.search-container{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    left: 6px;
+    font-size: 20px !important;
+    top: 8px;    
+}
+
+.search-input{
+    padding-left: 30px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    width: 250px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justfity-content-center{
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    justify-content: space-between;    
+    padding-left: 400px;
+    padding-right: 370px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.avatar{
+    width: 20px;
+    border-radius: 34px;
+}
+
+.gap-1{
+    gap: 1.8rem;
+}
+
+.container{
+    height: 91.7vh;
+    background-color: #f1f1f1;
+}
