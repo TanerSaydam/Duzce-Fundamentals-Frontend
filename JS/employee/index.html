@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee App</title>
+</head>
+<body>
+    <h1>Employee App</h1>
+    <div>
+        <form autocomplete="off" onsubmit="save(event)">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" required minlength="3">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" required minlength="3">
+            </div>
+            <div>
+                <label>Date of Birth</label>
+                <input type="date" name="dateOfBirth" value="2000-01-01" required>
+            </div>
+            <div>
+                <label>Salary</label>
+                <input type="number" name="salary" value="22104" required min="22104">
+            </div>
+            <div>
+                <button type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+
+    <hr>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Date Of Birth</th>
+                    <th>Salary</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

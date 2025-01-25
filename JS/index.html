@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 101</title>
+    <script>
+        
+            let min = 15;
+            let sec = 0;
+        const internal = setInterval(() => {
+            const el = document.querySelector("h1");
+            //sec = sec - 1;
+            sec--;
+            if(sec < 0){
+                sec = 59;
+                min--;
+                if(min < 0){
+                    internal.clearInterval();
+                    el.innerText = "Time's up!";
+                    return;
+                }
+            }
+
+            el.innerText=`${min}:${sec}`;
+        },1000);
+
+
+    </script>
+</head>
+<body>
+    <div>
+        <h1 id="head">Hello World</h1>
+        <!-- <button onclick="changeH1Element()">Change H1 Element</button> -->
+    </div>
+    <!-- <div>
+        <input type="text" id="input1" class="input1Class">
+        <input type="text" id="input2">
+        <button onclick="changeAllInputs()">Change Input Value</button>
+    </div> -->
+    <script src="./variables.js"></script>
+    <script src="./methods.js"></script>
+    <script src="./output.js"></script>
+    <script src="./document.js"></script>
+</body>
+</html>
