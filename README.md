@@ -29,6 +29,6 @@ Json-Server
 npm install -g json-server
 ```
 
-- Araştıralacak Konular
-[ ] WebAPI nedir ve fetch ile kullanımı
-[ ] async ve await keywordü kullanımı
+- Araştıralacak Konular <br/>
+[ ] WebAPI nedir ve fetch ile kullanımı<br/>
+[ ] async ve await keywordü kullanımı<br/>
