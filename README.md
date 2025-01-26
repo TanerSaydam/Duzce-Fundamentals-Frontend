@@ -14,6 +14,9 @@
 
 ## 25.01.2025 - JS Dersi
 - Video Linkleri
+1. https://drive.google.com/file/d/1EmdLITAItz2umzyxqI8BjKwMWOeIg2-q/view?usp=sharing
+2. https://drive.google.com/file/d/1SB0kjNjf8CG2VbDVmFrne5ovDHn59QUw/view?usp=sharing
+3. https://drive.google.com/file/d/1QvVKa03sBbHlHZlez7LBC4j6ObXXyL5t/view?usp=sharing
 
 - Kurulumlar
 Node js
